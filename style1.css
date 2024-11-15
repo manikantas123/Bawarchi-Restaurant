@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff6f61;
+    padding: 15px 20px;
+    position: relative;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #e05252;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background: url('https://wallpapercave.com/wp/wp3495545.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.home .content {
+    max-width: 500px;
+}
+
+.home h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.home .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+/* Speciality Section */
+.speciality {
+    padding: 50px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+}
+
+.speciality h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box h3 {
+    margin: 10px 0;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.menu h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu .box {
+    margin: 15px;
+    padding: 15px;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu .box .price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu .box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Steps Section */
+.steps {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.steps .box {
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.steps img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .box {
+    margin: 15px;
+}
+
+.gallery img {
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Healthy Tips Section */
+.healthy-tips {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.healthy-tips h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.healthy-tips .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.healthy-tips .box {
+    margin: 15px;
+}
+
+.healthy-tips img {
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+#menu-bar {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header .navbar {
+        display: none;
+        flex-direction: column;
+        background-color: #ff6f61;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    header .navbar.active {
+        display: flex;
+    }
+
+    #menu-bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home img {
+        width: 100%;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .menu .box-container, .speciality .box-container, .gallery .box-container, .healthy-tips .box-container {
+        flex-direction: column;
+    }
+
+    .menu .box, .speciality .box, .gallery .box, .healthy-tips .box {
+        width: 90%;
+    }
+}
